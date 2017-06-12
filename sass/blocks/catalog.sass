@@ -1,0 +1,26 @@
+.catalog
+    text-align: center
+    margin-top: -15px
+    margin-bottom: -30px
+
+.catalog__item
+    padding-top: 15px
+    height: 290px
+    border-bottom: 1px solid #D0D0D0
+    font-weight: 600
+    &:nth-of-type(odd)
+        border-right: 1px solid #D0D0D0
+
+.catalog__img
+    height: 205px
+    line-height: 205px
+    img
+        display: inline-block
+        vertical-align: middle
+
+.catalog__text
+    margin-top: 20px
+
+@media (max-width: 1020px)
+    .catalog__item
+        border-right: none !important

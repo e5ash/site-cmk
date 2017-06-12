@@ -1,0 +1,16 @@
+.textarea {
+  resize: none;
+  border: none;
+  background: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  width: 100%;
+  padding: 20px;
+  font-family: "Ubuntu", sans-serif;
+  height: 130px;
+  font-size: 16px;
+  font-weight: 300; }
+
+.textarea_border {
+  border: 1px solid #D7D7D7; }

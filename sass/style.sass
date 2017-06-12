@@ -1,0 +1,118 @@
+@import "fonts.sass"
+
+*
+	margin: 0
+	padding: 0
+
+body
+	font: 16px "Ubuntu"
+	color: rgb(65, 64, 66)
+	background: white
+	box-sizing: border-box
+	font-weight: 300
+	&.subpage
+		#main
+			padding-bottom: 30px
+		.footer__bottom
+			.container
+				background: none
+
+
+html, body, header, article, aside, main, footer, div, h1, h2, h3, h4, h5, h6, button
+	display: block
+
+a
+	color: black
+	text-decoration: none
+
+
+
+
+::placeholder
+	color: #898B8E
+
+.main-title
+	font-size: 24px
+	font-weight: 400
+	margin-bottom: 15px
+	color: #6D6D70
+	&.main-title_with-bg
+		background: #EFEFEF
+		padding: 7px 50px !important
+	&.fz24
+		padding-left: 10px
+		font-size: 24px
+	&.fz46
+		font-size: 46px
+
+.clearfix
+	&:before, &:after
+		display: table
+		content: ''
+		box-sizing: border-box
+	&:after
+		clear: both
+
+.mb40
+	margin-bottom: 40px
+
+.mb50
+	margin-bottom: 50px
+
+
+
+@import "elements/grid.sass"
+@import "elements/nav.sass"
+@import "elements/nav-block.sass"
+@import "elements/slider.sass"
+@import "elements/breadcrumb.sass"
+@import "elements/popup.sass"
+@import "elements/table.sass"
+@import "elements/dl.sass"
+@import "elements/ul.sass"
+@import "elements/form/button.sass"
+@import "elements/form/input.sass"
+@import "elements/form/textarea.sass"
+@import "blocks/header.sass"
+@import "blocks/main.sass"
+@import "blocks/contacts.sass"
+@import "blocks/footer.sass"
+@import "blocks/logo.sass"
+@import "blocks/search.sass"
+@import "blocks/socials.sass"
+@import "blocks/copy.sass"
+@import "blocks/dev.sass"
+@import "blocks/plashka.sass"
+@import "blocks/section.sass"
+@import "blocks/catalog.sass"
+@import "blocks/product.sass"
+@import "blocks/info.sass"
+@import "blocks/index/index-about.sass"
+@import "blocks/index/index-content.sass"
+@import "blocks/index/index-news.sass"
+@import "blocks/index/index-goods.sass"
+@import "blocks/index/index-form.sass"
+
+
+@media (max-width: 820px)
+	.hidden-xs
+		display: none
+
+	.hidden-sm
+		display: block !important
+
+
+@media (max-width: 1020px)
+	.hidden-md
+		display: block
+
+	.hidden-sm
+		display: none
+
+
+@media (max-width: 1200px)
+	.hidden-md
+		display: none
+
+.float-right
+	float: right

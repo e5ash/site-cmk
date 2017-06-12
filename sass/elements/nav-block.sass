@@ -1,0 +1,21 @@
+.nav-block
+    margin-right: -15px
+
+.nav-block__item
+    list-style: none
+    background: #EFEFEF
+    padding: 10px 20px
+    border-bottom: 1px solid #CACACA
+    &:last-of-type
+        border-bottom: none
+    a
+        display: block
+    &.nav-block__item_select, &:hover
+        color: white
+        background: #59595B
+        a
+            color: white
+
+@media screen and (max-width: 820px)
+    .nav-block
+        margin-right: 0

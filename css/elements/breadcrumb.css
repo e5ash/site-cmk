@@ -1,0 +1,23 @@
+@charset "UTF-8";
+.breadcrumb {
+  color: #909294;
+  background: #EFEFEF;
+  font-size: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px; }
+
+.breadcrumb__list {
+  padding-left: 30px;
+  padding-right: 30px; }
+
+.breadcrumb__item {
+  display: inline-block;
+  list-style: none; }
+  .breadcrumb__item:after {
+    content: '»';
+    margin-left: 3px; }
+  .breadcrumb__item:last-of-type:after {
+    display: none; }
+
+.breadcrumb__item-a {
+  color: #909294; }

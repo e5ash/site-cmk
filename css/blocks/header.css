@@ -1,0 +1,101 @@
+.header {
+  padding-top: 25px; }
+
+.header__logo {
+  padding-right: 0;
+  border-right: 1px solid #CFCFCF; }
+  .header__logo .logo__img {
+    margin-left: -20px; }
+
+.header__phone {
+  padding-top: 5px;
+  font-size: 20px;
+  line-height: 24px;
+  padding-left: 15px;
+  font-weight: 700; }
+
+.header__callback {
+  padding-left: 25px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  font-size: 14px; }
+
+.header__middle {
+  padding-right: 0; }
+
+.header__nav {
+  border-bottom: 1px solid #CFCFCF;
+  padding-bottom: 5px;
+  margin-bottom: 42px;
+  margin-left: 55px; }
+
+.header__nav-item {
+  display: inline-block;
+  list-style: none;
+  font-size: 14px;
+  margin-top: 10px; }
+  .header__nav-item:after {
+    content: '/';
+    display: inline-block;
+    margin-left: 6px;
+    margin-right: 1px; }
+  .header__nav-item:last-of-type:after {
+    display: none; }
+
+.header__contacts {
+  float: left;
+  line-height: 21px;
+  margin-left: 55px; }
+
+@media screen and (max-width: 1030px) {
+  .header__logo .logo__img {
+    margin-left: 0; }
+  .header__logo .logo__desc {
+    padding-left: 130px; } }
+
+@media screen and (max-width: 1000px) {
+  .header__logo {
+    padding-left: 20px; } }
+
+@media screen and (max-width: 1020px) {
+  .header__middle {
+    text-align: center; }
+    .header__middle .header__search {
+      text-align: left; }
+  .header__nav {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: none; } }
+
+@media screen and (max-width: 820px) {
+  .header__logo {
+    float: none;
+    width: 295px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    border-right: none; }
+  .header__middle {
+    float: none;
+    width: 265px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0; }
+  .header__last {
+    text-align: center;
+    float: none;
+    width: 295px;
+    margin-left: auto;
+    margin-right: auto; }
+  .header__nav, .header__contacts {
+    float: none;
+    margin-right: auto;
+    margin-left: auto; }
+  .header__nav-item {
+    display: block; }
+    .header__nav-item:after {
+      display: none; } }

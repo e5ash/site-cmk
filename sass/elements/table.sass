@@ -1,0 +1,36 @@
+.table
+    text-align: left
+    border-collapse: collapse
+    th
+        color: white
+        background: #128ABB
+        font-weight: 300
+        padding: 12px 15px
+        border: 1px solid #1B779C
+
+    td
+        border: 1px solid #9F9E9E
+        padding: 10px
+
+    tbody
+        tr
+          &:nth-of-type(even)
+              background: #C6E9FA
+
+.table_2_12px
+    tbody
+        td
+            &:nth-of-type(2)
+                font-size: 12px
+
+.table_3_12px
+    tbody
+        td
+            &:nth-of-type(3)
+                font-size: 12px
+
+@media screen and (max-width: 430px)
+    .table_3_hidden-430
+        td, th
+            &:nth-of-type(3)
+                display: none

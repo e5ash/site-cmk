@@ -1,0 +1,117 @@
+.index-goods
+    text-align: center
+
+.index-goods__title
+    position: relative
+    font-size: 24px
+    line-height: 29px
+    margin-top: 15px
+    margin-bottom: 35px
+    font-weight: 400
+    &:before
+        z-index: -2
+        position: absolute
+        content: ''
+        width: 102%
+        top: 16px
+        left: -15px
+        right: -15px
+        height: 1px
+        background: #D6D6D6
+    &:after
+        z-index: -1
+        content: ''
+        position: absolute
+        width: 400px
+        height: 40px
+        top: 0
+        left: 400px
+        background: #ffffff
+
+.index-goods__list
+    margin-bottom: 35px
+
+.index-goods__img
+    height: 205px
+    line-height: 205px
+    img
+        vertical-align: middle
+
+
+.index-goods__item
+    height: 290px
+    background: #E5E6E7
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+    padding-top: 15px
+    border: 1px solid white
+    &:nth-of-type(even)
+        background: #F1F2F2
+
+
+.index-goods__text
+    margin-top: 10px
+    font-size: 18px
+
+.index-goods__slider
+    margin-bottom: 45px
+    .index-goods__img
+        line-height: 250px
+        height: 250px
+        img
+            display: inline-block
+    .index-goods__text
+        margin-top: 30px
+        font-size: 22px
+        font-weight: 400
+
+.index-goods__slider-item
+    outline: none !important
+
+.index-goods__slider
+    .slick-button
+        z-index: 1000
+        width: 55px
+        height: 55px
+        background: #128ABB
+        border-radius: 50%
+        &:before
+            display: none
+        svg
+            position: relative
+            width: 22px
+        path
+            fill: #C6E9FA
+    .slick-prev
+        left: -68px
+        padding-right: 5px
+
+    .slick-next
+        right: -68px
+        padding-left: 5px
+
+@media screen and (max-width: 1350px)
+    .index-goods__slider
+        .slick-button
+            zoom: 0.7
+        .slick-prev
+            left: 0px
+        .slick-next
+            right: 0px
+@media screen and (max-width: 1250px)
+    .index-goods__title
+        &:before
+            left: 0
+            right: 0
+            width: 100%
+        &:after
+            left: calc(50% - 200px)
+
+@media screen and (max-width: 420px)
+    .index-goods__title
+        &:before, &:after
+            display: none
+    .index-goods__img
+        img
+            max-width: 100%

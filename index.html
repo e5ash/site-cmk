@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Title</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+	</head>
+	<body>
+		<div class="popup">
+			<div class="popup__container container">
+				<div class="popup__window">
+					<div class="popup__header">
+						<div class="popup__title"></div>
+						<div class="popup__close"></div>
+					</div>
+					<div class="popup__body">
+
+					</div>
+				</div>
+			</div>
+			<div class="popup__bg"></div>
+		</div>
+		
+		<header class="header">
+			<div class="container">
+				<div class="row">
+					<div class="col col-lg-3 col-md-4 col-sm-6 header__logo clearfix">
+						<a href="#" class="logo">
+							<img src="img/logo.png" alt="" class="logo__img">
+							<p class="logo__name"><span>СМК </span>ГРУППА КОМПАНИЙ</p>
+							<p class="logo__desc">Метрологическое <br />обеспечение предприятий <br />и частного сектора</p>
+						</a>
+					</div>
+					<div class="col col-lg-3 col-md-3 col-sm-6 header__middle">
+						<p class="header__phone"><a href="#">+7(846)989-39-77</a></p>
+						<p class="header__callback">обратный звонок</p>
+						<div class="search header__search">
+							<form>
+								<input type="text" class="input search__input" placeholder="поиск оборудования">
+								<button class="search__button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 17.49" class="search__icon icon-search"><defs><style>.icon-1{fill:#6D6D70;}</style></defs><title>Ресурс 8</title><g id="Слой_2" data-name="Слой 2"><g id="Layer_1" data-name="Layer 1"><path class="icon-1" d="M20.18,14,15,10.18a1.94,1.94,0,0,0-1.66-.28,7,7,0,1,0-1.41,2,1.94,1.94,0,0,0,.8,1.42l5.17,3.77A1.95,1.95,0,1,0,20.18,14ZM7,11.89A4.9,4.9,0,1,1,11.89,7,4.9,4.9,0,0,1,7,11.89Z"/></g></g></svg></button>
+							</form>
+						</div>
+					</div>
+					<div class="col col-lg-5 col-md-5 col-sm-12 header__last">
+						<div class="header__nav">
+							<ul class="header__nav-list">
+								<li class="header__nav-item"><a href="">О КОМПАНИИ</a></li>
+								<li class="header__nav-item"><a href="">ОБРАТНАЯ СВЯЗЬ</a></li>
+								<li class="header__nav-item"><a href="">КОНТАКТЫ</a></li>
+							</ul>
+						</div>
+						<div class="header__contacts">
+							<p>г. Самара, Переулок Тургенева, д. 7</p>
+							<p>Тел/факс +7(846)240-97-50</p>
+						</div>
+                        <div class="socials">
+                            <a href="#" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.45 10.08" class="icon-vk"><defs><style>.cls-1{opacity:0.66;}.cls-2{fill:#939598;}</style></defs><title>Ресурс 9</title><g id="Слой_2" data-name="Слой 2"><g id="Layer_1" data-name="Layer 1"><g class="cls-1"><path class="cls-2" d="M0,0H4A11.67,11.67,0,0,1,5.82.1,2.62,2.62,0,0,1,6.87.52a2.59,2.59,0,0,1,.77.84A2.29,2.29,0,0,1,8,2.54,2.39,2.39,0,0,1,6.53,4.73,2.66,2.66,0,0,1,8,5.64a2.43,2.43,0,0,1,.5,1.52A3,3,0,0,1,8.13,8.5a2.7,2.7,0,0,1-.87,1A2.89,2.89,0,0,1,5.89,10q-.51.06-2.46.07H0ZM2,1.68V4H3.37Q4.56,4,4.85,4a1.35,1.35,0,0,0,.82-.36A1.06,1.06,0,0,0,6,2.83a1.11,1.11,0,0,0-.26-.76,1.17,1.17,0,0,0-.77-.35q-.3,0-1.74,0Zm0,4v2.7H3.92a9.2,9.2,0,0,0,1.4-.06,1.26,1.26,0,0,0,.74-.4,1.24,1.24,0,0,0,.29-.86,1.32,1.32,0,0,0-.22-.77,1.24,1.24,0,0,0-.64-.46,6.91,6.91,0,0,0-1.81-.14Z"/></g></g></g></svg></a>
+                            <a href="#" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6.51 13.44" class="icon-fb"><defs><style>.cls-1{opacity:0.66;}.cls-2{fill:#939598;}</style></defs><title>Ресурс 10</title><g id="Слой_2" data-name="Слой 2"><g id="Layer_1" data-name="Layer 1"><g class="cls-1"><path class="cls-2" d="M0,3.87H1.41V3.15a4.77,4.77,0,0,1,.26-1.8,2,2,0,0,1,1-1A3.67,3.67,0,0,1,4.38,0,7.12,7.12,0,0,1,6.51.32L6.16,2.09A5.06,5.06,0,0,0,5,1.95a1,1,0,0,0-.79.26,1.48,1.48,0,0,0-.24,1v.68h1.9v2H4v7.58H1.41V5.86H0Z"/></g></g></g></svg></a>
+                        </div>
+					</div>
+				</div>
+			</div>
+			<nav class="nav">
+				<div class="container">
+					<div class="row">
+						<div class="col col-lg-3 col-md-4 col-sm-12 col-xs-12 nav__catalog">
+							<div class="nav__catalog-button">
+								<div class="nav__catalog-sticks">
+									<span></span><span></span><span></span>
+								</div>
+								<p class="nav__catalog-title">КАТАЛОГ ТОВАРОВ</p>
+								<div class="nav__catalog-arrow"><i class="icon nav__catalog-icon"></i></div>
+							</div>
+							<div class="nav__catalog-hidden">
+								<div class="container">
+									<div class="row">
+										<div class="col col-md-3 col-sm-6 col-xs-12">
+											<ul class="nav__catalog-list">
+												<li class="nav__catalog-item"><a href="">Ссылка</a></li>
+												<li class="nav__catalog-item"><a href="">Ссылка</a></li>
+												<li class="nav__catalog-item"><a href="">Ссылка</a></li>
+												<li class="nav__catalog-item"><a href="">Ссылка</a></li>
+												<li class="nav__catalog-item"><a href="">Ссылка</a></li>
+											</ul>
+										</div>
+										<div class="col col-md-3 col-sm-6 col-xs-12">
+											<ul class="nav__catalog-list">
+												<li class="nav__catalog-item"><a href="">Ссылка</a></li>
+												<li class="nav__catalog-item"><a href="">Ссылка</a></li>
+												<li class="nav__catalog-item"><a href="">Ссылка</a></li>
+												<li class="nav__catalog-item"><a href="">Ссылка</a></li>
+												<li class="nav__catalog-item"><a href="">Ссылка</a></li>
+											</ul>
+										</div>
+										<div class="col col-md-3 col-sm-6 col-xs-12">
+											<ul class="nav__catalog-list">
+												<li class="nav__catalog-item"><a href="">Ссылка</a></li>
+												<li class="nav__catalog-item"><a href="">Ссылка</a></li>
+												<li class="nav__catalog-item"><a href="">Ссылка</a></li>
+												<li class="nav__catalog-item"><a href="">Ссылка</a></li>
+												<li class="nav__catalog-item"><a href="">Ссылка</a></li>
+											</ul>
+										</div>
+										<div class="col col-md-3 col-sm-6 col-xs-12">
+											<ul class="nav__catalog-list">
+												<li class="nav__catalog-item"><a href="">Ссылка</a></li>
+												<li class="nav__catalog-item"><a href="">Ссылка</a></li>
+												<li class="nav__catalog-item"><a href="">Ссылка</a></li>
+												<li class="nav__catalog-item"><a href="">Ссылка</a></li>
+												<li class="nav__catalog-item"><a href="">Ссылка</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col col-lg-8 col-md-8 col-sm-12 col-xs-12">
+							<ul class="nav__list">
+								<li class="nav__item"><a href="">ПРОДАЖА <br />ОБОРУДОВАНИЯ</a></li>
+								<li class="nav__item"><a href="">ПОВЕРКА <br />И РЕМОНТ</a></li>
+								<li class="nav__item"><a href="">МЕТРОЛОГИЧЕСКОЕ <br />ОБЕСПЕЧЕНИЕ</a></li>
+								<li class="nav__item"><a href="">АТТЕСТАЦИЯ УЗЛОВ <br />УЧЕТА ГАЗА</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<div class="slider">
+			<div class="container">
+                <div class="row">
+                    <div class="slider__main">
+                        <div class="slider__main-item">
+                            <img src="img/slider/1/1.jpg" alt="" class="slider__img-1">
+                            <img src="img/slider/1/2.png" alt="" class="slider__img-2">
+                            <img src="img/slider/1/3.png" alt="" class="slider__img-3">
+                            <div class="plashka">
+                                <p class="plashka__title">Системы телеметрии <br />для промышленности</p>
+                                <p class="plashka__desc">ВК-G4 ЕТе с электронным индексом <br />Themis и модуль телеметрии TMP</p>
+                            </div>
+                            <a href="#" class="slider__button">подробнее</a>
+                        </div>
+                        <div class="slider__main-item">
+                            <img src="img/slider/1/1.jpg" alt="" class="slider__img-1">
+                            <img src="img/slider/1/2.png" alt="" class="slider__img-2">
+                            <img src="img/slider/1/3.png" alt="" class="slider__img-3">
+                            <div class="plashka">
+                                <p class="plashka__title">Системы телеметрии <br />для промышленности</p>
+                                <p class="plashka__desc">ВК-G4 ЕТе с электронным индексом <br />Themis и модуль телеметрии TMP</p>
+                            </div>
+                            <a href="#" class="slider__button">подробнее</a>
+                        </div>
+                        <div class="slider__main-item">
+                            <img src="img/slider/1/1.jpg" alt="" class="slider__img-1">
+                            <img src="img/slider/1/2.png" alt="" class="slider__img-2">
+                            <img src="img/slider/1/3.png" alt="" class="slider__img-3">
+                            <div class="plashka">
+                                <p class="plashka__title">Системы телеметрии <br />для промышленности</p>
+                                <p class="plashka__desc">ВК-G4 ЕТе с электронным индексом <br />Themis и модуль телеметрии TMP</p>
+                            </div>
+                            <a href="#" class="slider__button">подробнее</a>
+                        </div>
+                        <div class="slider__main-item">
+                            <img src="img/slider/1/1.jpg" alt="" class="slider__img-1">
+                            <img src="img/slider/1/2.png" alt="" class="slider__img-2">
+                            <img src="img/slider/1/3.png" alt="" class="slider__img-3">
+                            <div class="plashka">
+                                <p class="plashka__title">Системы телеметрии <br />для промышленности</p>
+                                <p class="plashka__desc">ВК-G4 ЕТе с электронным индексом <br />Themis и модуль телеметрии TMP</p>
+                            </div>
+                            <a href="#" class="slider__button">подробнее</a>
+                        </div>
+                        <div class="slider__main-item">
+                            <img src="img/slider/1/1.jpg" alt="" class="slider__img-1">
+                            <img src="img/slider/1/2.png" alt="" class="slider__img-2">
+                            <img src="img/slider/1/3.png" alt="" class="slider__img-3">
+                            <div class="plashka">
+                                <p class="plashka__title">Системы телеметрии <br />для промышленности</p>
+                                <p class="plashka__desc">ВК-G4 ЕТе с электронным индексом <br />Themis и модуль телеметрии TMP</p>
+                            </div>
+                            <a href="#" class="slider__button">подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slider__sub">
+                        <div class="slider__sub-item">Приборы учёта газа</div>
+                        <div class="slider__sub-item">Приборы учёта тепла</div>
+                        <div class="slider__sub-item">Приборы учёта воды</div>
+                        <div class="slider__sub-item">Приборы КИПиА</div>
+                        <div class="slider__sub-item">Приборы учёта газа</div>
+                    </div>
+                </div>
+			</div>
+		</div>
+		<div id="main">
+			<div class="index-about container">
+				<div class="row">
+					<div class="col col-lg-8 col-md-7 col-sm-8 col-xs-12 index-content">
+						<h1 class="index-content__title">Добро пожаловать в в группу компаний «СМК»</h1>
+						<p>Наша компания является предприятием полного цикла, специализирующимся на взаимодействии с объектами газового хозяйства, предприятий сферы ЖКХ, пищевой, нефтегазовой и химической промышленности.</p>
+						<p>Сфера нашей деятельности начинается от организации поверки средств измерения и комплексного метрологического обеспечения до строительства котельных и газопроводов.</p>
+						<p>Все специалисты нашей компании имеют высокую квалификацию и опыт работы в отрасли, и помогут найти пути решения самых сложных задач.</p>
+						<p>Организация работы всех направлений построена таким образом, чтобы максимально сократить Ваши временные и денежные затраты, учитывая при этом требования (как Ваши так и законодательства) к выполнению работ и услуг.</p>
+						<p>Обратившись к нам, Вы всегда сможете получить бесплатные консультации по всем направлениям нашей деятельности, которые представлены в данном каталоге. Мы будем рады видеть Вас в числе наших партнеров.</p>
+					</div>
+					<div class="col col-lg-4 col-md-5 col-sm-4 col-xs-12 index-news">
+						<div class="index-news__list">
+							<p class="index-news__title">НОВОСТИ</p>
+							<div class="index-news__item">
+								<p class="index-news__date">03.02.2017</p>
+								<a href="#" class="index-news__text">Повышение цен на сч. газа СГК4 (Сигнал).</a>
+							</div>
+							<div class="index-news__item">
+								<p class="index-news__date">01.02.2017</p>
+								<a href="#" class="index-news__text">Поставки счетчиков газа TRZ и RABO в Республику Армения.</a>
+							</div>
+							<div class="index-news__item">
+								<p class="index-news__date">16.01.2017</p>
+								<a href="#" class="index-news__text">Обновление версии программного комплекса «СОДЭК»</a>
+							</div>
+							<div class="index-news__item">
+								<p class="index-news__date">08.12.2016</p>
+								<a href="#" class="index-news__text">Особенности применения ротационных счетчиков газа RABO</a>
+							</div>
+						</div>
+						<a href="" class="index-news__all-news">все новости</a>
+					</div>
+				</div>
+			</div>
+			<div class="index-goods container">
+				<div class="row">
+					<div class="col col-xs-12 index-goods__title">ПРИБОРЫ УЧЁТА ГАЗА</div>
+				</div>
+				<div class="row index-goods__list">
+					<a href="#" class="index-goods__item col col-lg-4 col-md-4 col-sm-6 col-xs-12">
+						<div class="index-goods__img"><img src="img/goods/1.png" alt="" width="326"></div>
+						<p class="index-goods__text">Промышленные <br />измерительные комплексы</p>
+					</a>
+					<a href="#" class="index-goods__item col col-lg-4 col-md-4 col-sm-6 col-xs-12">
+						<div class="index-goods__img"><img src="img/goods/2.png" alt="" width="184"></div>
+						<p class="index-goods__text">Коммунально-бытовые <br />комплексы СГ-ТК-Д</p>
+					</a>
+					<a href="#" class="index-goods__item col col-lg-4 col-md-4 col-sm-6 col-xs-12">
+						<div class="index-goods__img"><img src="img/goods/3.png" alt="" width="216"></div>
+						<p class="index-goods__text">Бытовые и коммунальные <br />счетчики газа</p>
+					</a>
+					<a href="#" class="index-goods__item col col-lg-4 col-md-4 col-sm-6 col-xs-12">
+						<div class="index-goods__img"><img src="img/goods/4.png" alt="" width="231"></div>
+						<p class="index-goods__text">Промышленные счетчики газа</p>
+					</a>
+					<a href="#" class="index-goods__item col col-lg-4 col-md-4 col-sm-6 col-xs-12">
+						<div class="index-goods__img"><img src="img/goods/5.png" alt="" width="162"></div>
+						<p class="index-goods__text">Газовые фильтры</p>
+					</a>
+					<a href="#" class="index-goods__item col col-lg-4 col-md-4 col-sm-6 col-xs-12">
+						<div class="index-goods__img"><img src="img/goods/6.png" alt="" width="215"></div>
+						<p class="index-goods__text">Системы телеметрии </p>
+					</a>
+				</div>
+				<div class="row">
+					<div class="col col-xs-12 index-goods__title">ДРУГИЕ ПРИБОРЫ</div>
+				</div>
+				<div class="row index-goods__slider">
+					<div class="col col-lg-4 index-goods__slider-item">
+						<div class="index-goods__img"><img src="img/other/1.png" alt="" width="285"></div>
+						<p class="index-goods__text">Приборы учета тепла</p>
+					</div>
+					<div class="col col-lg-4 index-goods__slider-item">
+						<div class="index-goods__img"><img src="img/other/2.png" alt="" width="260"></div>
+						<p class="index-goods__text">Приборы учета воды</p>
+					</div>
+					<div class="col col-lg-4 index-goods__slider-item">
+						<div class="index-goods__img"><img src="img/other/3.png" alt="" width="300"></div>
+						<p class="index-goods__text">Приборы КИПиА</p>
+					</div>
+					<div class="col col-lg-4 index-goods__slider-item">
+						<div class="index-goods__img"><img src="img/other/1.png" alt="" width="285"></div>
+						<p class="index-goods__text">Приборы учета тепла</p>
+					</div>
+				</div>
+			</div>
+			<div class="index-form">
+				<div class="container">
+					<div class="row">
+						<div class="col col-lg-4 col-md-4 col-sm-6 col-xs-12 float-right">
+							<div class="index-form__contacts">
+								<p><span class="index-form__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.83 20.65" class="icon-marker"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Ресурс 4</title><g id="Слой_2" data-name="Слой 2"><g id="Layer_1" data-name="Layer 1"><path class="cls-1" d="M7.92,0A7.91,7.91,0,0,0,0,7.84V8c0,5.16,6.61,12.66,7.92,12.66s7.91-7.57,7.91-12.73V7.77A7.84,7.84,0,0,0,7.92,0Zm0,11.71a3.8,3.8,0,1,1,3.8-3.8A3.8,3.8,0,0,1,7.92,11.71Z"/></g></g></svg></span>г. Самара, Переулок Тургенева, д. 7</p>
+								<p><span class="index-form__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.94 18.93" class="icon-phone"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Ресурс 5</title><g id="Слой_2" data-name="Слой 2"><g id="Layer_1" data-name="Layer 1"><path class="cls-1" d="M18.94,14.8a5.23,5.23,0,0,1-2.59,4.08.64.64,0,0,1-.27.06.62.62,0,0,1-.2,0l-.53-.15C12.57,18,4.11,15.64,0,3a.64.64,0,0,1,0-.35C0,2.56.55.58,4,0a.63.63,0,0,1,.38.05c.13.06,3.08,1.45,3.33,4.28a.64.64,0,0,1-.17.49A6.92,6.92,0,0,0,5.74,7.55c.08.65,2.13,4.11,5.81,5.9a8.63,8.63,0,0,0,2.74-1.71.63.63,0,0,1,.57-.14,6.12,6.12,0,0,1,4,2.79A.64.64,0,0,1,18.94,14.8Z"/></g></g></svg></span><a href="#">+7-846-989-39-77</a></p>
+								<p><span class="index-form__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.48 14.32" class="icon-mail-white"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Ресурс 3</title><g id="Слой_2" data-name="Слой 2"><g id="Layer_1" data-name="Layer 1"><path class="cls-1" d="M19.69,0H1.79A1.79,1.79,0,0,0,0,1.79V12.53a1.79,1.79,0,0,0,1.79,1.79h17.9a1.79,1.79,0,0,0,1.79-1.79V1.79A1.79,1.79,0,0,0,19.69,0Zm.85,13.74a.18.18,0,0,1-.24,0l-6.51-6-2.57,2.47a.67.67,0,0,1-.93,0L7.71,7.7l-6.5,6a.18.18,0,0,1-.25-.25L7,7,1,1.21A.18.18,0,0,1,1.19.94l9.56,7.82L20.3,1a.18.18,0,0,1,.24.27L14.48,7.05l.06,0,6,6.49A.18.18,0,0,1,20.54,13.74Z"/></g></g></svg></span><a href="#">info@smk63</a></p>
+								<p><span class="index-form__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.48 21.48" class="icon-time"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Ресурс 2</title><g id="Слой_2" data-name="Слой 2"><g id="Layer_1" data-name="Layer 1"><path class="cls-1" d="M10.74,0A10.74,10.74,0,1,0,21.48,10.74,10.74,10.74,0,0,0,10.74,0Zm0,19.53a8.79,8.79,0,1,1,8.79-8.79A8.8,8.8,0,0,1,10.74,19.53Z"/><path class="cls-1" d="M11.72,10.34V6.84a1,1,0,0,0-2,0v4.31L14,15.34A1,1,0,1,0,15.34,14Z"/></g></g></svg></span>Рабочие дни с 8:00 до 20:00</p>
+							</div>
+
+						</div>
+						<div class="col col-lg-4 col-md-4 col-sm-6 col-xs-12 float-right">
+							<form>
+								<p class="index-form__title">ВОЗНИКЛИ ВОПРОСЫ?</p>
+								<input type="text" class="input index-form__input" placeholder="Имя">
+								<input type="text" class="input index-form__input" placeholder="Телефон или email">
+								<textarea class="textarea index-form__textarea" placeholder="Ваш вопрос"></textarea>
+								<button class="index-form__button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.91 17.27" class="icon-mail-blue"><defs><style>.cls-1{fill:#008bbf;}</style></defs><title>Ресурс 6</title><g id="Слой_2" data-name="Слой 2"><g id="Layer_1" data-name="Layer 1"><path class="cls-1" d="M23.74,0H2.16A2.16,2.16,0,0,0,0,2.16v13a2.16,2.16,0,0,0,2.16,2.16H23.74a2.16,2.16,0,0,0,2.16-2.16v-13A2.16,2.16,0,0,0,23.74,0Zm1,16.58a.22.22,0,0,1-.29,0L16.63,9.31l-3.1,3a.81.81,0,0,1-1.12,0l-3.11-3L1.45,16.56a.22.22,0,0,1-.31-.31L8.4,8.43l-7.24-7a.22.22,0,0,1,.29-.32L13,10.57,24.48,1.15a.22.22,0,0,1,.29.32l-7.31,7,.07-.06,7.25,7.82A.22.22,0,0,1,24.77,16.58Z"/></g></g></svg></button>
+							</form>
+						</div>
+						<div class="col col-lg-4 col-md-4 hidden-sm hidden-xs">
+							<div class="index-form__img"><img src="img/man.png" alt="" width="349"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+        <footer class="footer">
+            <div class="footer__top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="footer__title">УЧЁТ ГАЗА</div>
+                            <div class="footer__nav">
+                                <ul class="footer__nav-list">
+                                    <li class="footer__nav-item"><a href="">Комплексы на базе ротационных счетчиков</a></li>
+                                    <li class="footer__nav-item"><a href="">Комплексы на базе турбинных счетчиков</a></li>
+                                    <li class="footer__nav-item"><a href="">Комплексы на базе вихревых расходомеров ИРВИС</a></li>
+                                    <li class="footer__nav-item"><a href="">Комплексы на базе ультразвуковых расходомеров</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="footer__title">ТЕЛЕМЕТРИЯ</div>
+                            <div class="footer__nav">
+                                <ul class="footer__nav-list">
+                                    <li class="footer__nav-item"><a href="">Приборы учёта тепла</a></li>
+                                    <li class="footer__nav-item"><a href="">Приборы учёта воды</a></li>
+                                    <li class="footer__nav-item"><a href="">Приборы КИПиА</a></li>
+                                    <li class="footer__nav-item"><a href="">Пункты учёта и редуцирования газа</a></li>
+                                    <li class="footer__nav-item"><a href="">Котловая автоматика</a></li>
+                                    <li class="footer__nav-item"><a href="">Запорная арматура</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="footer__title">УСЛУГИ</div>
+                            <div class="footer__nav">
+                                <ul class="footer__nav-list">
+                                    <li class="footer__nav-item"><a href="">Организация периодической проверки средств измерений</a></li>
+                                    <li class="footer__nav-item"><a href="">Ремонт средств измерений</a></li>
+                                    <li class="footer__nav-item"><a href="">Комплексное метродолигическое оснащение предприятий</a></li>
+                                    <li class="footer__nav-item"><a href="">Комплексное метродолигическое оснащение предприятий</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col col-lg-3 footer__last hidden-md">
+                            <a href="#" class="footer__logo logo clearfix">
+                                <img src="img/logo.png" alt="" class="logo__img">
+                                <p class="logo__name"><span>СМК</span>ГРУППА КОМПАНИЙ</p>
+                                <p class="logo__desc">Метрологическое <br />обеспечение предприятий и <br />частного сектора</p>
+                            </a>
+                            <p class="copy">© Группа компаний СМК, 2017</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="container">
+					<div class="row">
+						<div class="col col-lg-6 col-md-10 col-sm-9 col-xs-12">
+							<div class="footer__nav-upper">
+								<ul class="footer__nav-upper-list">
+									<li class="footer__nav-upper-item"><a href="">ПРОДАЖА ОБОРУДОВАНИЯ</a></li>
+									<li class="footer__nav-upper-item"><a href="">УСЛУГИ</a></li>
+									<li class="footer__nav-upper-item"><a href="">ДОКУМЕНТАЦИЯ</a></li>
+									<li class="footer__nav-upper-item"><a href="">КОНТАКТЫ</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col col-lg-6 col-md-2 col-sm-3 col-xs-12">
+							<div class="dev">
+								<a href="//samara-website.ru/" target="_blank" title="Частный Вебмастер">
+									<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 12" enable-background="new 0 0 20 12" xml:space="preserve">
+										<title>Частный Вебмастер Самары</title>
+										<g>
+											<path class="logo_top_hoover" d="M8.1,2.7C7.9,3.1,7.7,3.5,7.4,4c0.2-0.1,0.4-0.1,0.8-0.3C8.2,3.9,8.3,4,8.3,4.2c0,0.3-0.1,0.4-0.3,0.5
+												C7.7,4.8,7.5,4.9,6.9,5.1c-0.7,1.4-1.4,3-1.4,4.2c0,0.3-0.2,0.4-0.4,0.4L4.4,9.8c0-1.5,0.6-2.9,1-3.9c0,0,0.1-0.1,0.2-0.4
+												C4.5,5.9,3.4,6.2,2.9,6.2C2.5,6.2,2.2,6,2.2,5.6c0-0.8,1.6-2.9,1.6-4.3c0-0.2-0.1-0.2-0.2-0.2c-1,0-2.4,2.5-2.6,3.6
+												C1,5.2,0.5,5.4,0.3,5.4C0.1,5.4,0,5.2,0,5c0-1.1,2-4.7,3.7-4.7c0.7,0,1.1,0.4,1.1,1.1c0,0.9-1,2.8-1.4,3.8C4.3,5,5.2,4.8,6.2,4.4
+												c0.5-1,1.1-2.1,1.2-2.4C7.6,1.8,7.8,1.7,8,1.7c0.3,0,0.4,0.1,0.4,0.4C8.4,2.1,8.2,2.6,8.1,2.7z"></path>
+											<path class="logo_top_hoover" d="M13.7,5.9c0,0.4,1.9-0.1,1.9,1.7c0,1.5-1.7,2-3,2c-0.4,0-0.7,0-1.1,0h-1.2c0-0.3,0.1-0.7,0.2-0.8
+												c0.5,0,0.9,0,1.3,0c0.8,0,2.7-0.1,2.7-1.2c0-1.2-1.9-0.2-1.9-1.8c0-1.6,2.5-0.4,2.5-3.2c0-0.5-0.1-1.5-0.8-1.5
+												c-0.8,0-1.3,1.1-1.5,1.6l-2.6,5.9C10.1,9,10,9.3,9.8,9.6C9.7,9.7,9.3,9.8,9.1,9.8c-0.1,0-0.4-0.2-0.4-0.3
+												c1.2-2.2,2.1-4.6,3.2-6.9c0.5-1,1.3-2.3,2.5-2.3c1.3,0,1.7,1.4,1.7,2.4C16.2,5.5,13.7,5.5,13.7,5.9z"></path>
+										</g>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+
+                </div>
+            </div>
+        </footer>
+
+		<!-- Styles -->
+		<link rel="stylesheet" href="css/libs.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<!-- /Styles -->
+		
+		<!-- Scritps -->
+		<script src="js/libs.min.js"></script>
+		<script src="js/scripts.js"></script>
+		<!-- /Scritps -->
+	</body>
+</html>

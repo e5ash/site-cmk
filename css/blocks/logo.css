@@ -1,0 +1,26 @@
+.logo__img {
+  float: left;
+  display: block;
+  position: relative;
+  width: 120px; }
+
+.logo__name {
+  float: left;
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 14px;
+  line-height: 21.41px; }
+  .logo__name span {
+    display: block;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black; }
+
+.logo__desc {
+  float: left;
+  padding-left: 115px;
+  margin-top: -45px;
+  color: #6d6e71;
+  font-size: 12px;
+  line-height: 14.4px; }

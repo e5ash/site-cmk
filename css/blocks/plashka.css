@@ -1,0 +1,21 @@
+.plashka {
+  z-index: 1;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 340px;
+  padding: 13px 28px 15px 34px;
+  background: rgba(255, 255, 255, 0.62);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.plashka__title {
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 10px; }
+
+.plashka__desc {
+  color: #000000;
+  font-weight: 400; }

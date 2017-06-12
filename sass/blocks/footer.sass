@@ -1,0 +1,91 @@
+.footer
+    
+.footer__top
+    background: #117CA8
+    color: white
+    padding-top: 35px
+    padding-bottom: 25px
+    a
+        color: white
+    li
+        list-style: none
+    .copy
+        margin-top: 55px
+
+.footer__title
+    font-weight: 400
+    &:after
+        content: ''
+        display: block
+        width: 170px
+        height: 1px
+        background: #3EA0BD
+        margin-top: 15px
+        margin-bottom: 15px
+
+.footer__nav
+    padding-right: 35px
+
+.footer__nav-item
+    margin-bottom: 10px
+    font-size: 13px
+    line-height: 15.6px
+    &:last-of-type
+        margin-bottom: 0
+
+.footer__last
+    padding-left: 0
+    padding-right: 0
+
+.footer__logo
+    span, .logo__desc
+        color: white !important
+    .logo__img
+        margin-left: -30px
+    .logo__desc
+        font-size: 12px
+        padding-left: 105px
+        br
+            display: none
+
+.footer__bottom
+    background: #399BD5
+    color: #B0D9EF
+    .container
+        padding-top: 30px
+        padding-bottom: 30px
+        background: url('../../img/bg/footer_bottom.png') no-repeat top right
+    a
+        color: #B0D9EF
+    li
+        display: inline-block
+        list-style: none
+        &:after
+            content: '|'
+            margin-left: 6px
+            margin-right: 3px
+        &:last-of-type
+            &:after
+                display: none
+
+    .copy
+        color: #93CAE8
+
+@media screen and (max-width: 820px)
+    .footer__bottom
+        .container
+            background: none
+    .footer__nav
+        margin-bottom: 30px
+    .footer__nav-upper
+        text-align: center
+    .footer__nav-upper-item
+        display: block !important
+        margin-bottom: 10px
+        a
+            color: white
+        &:last-of-type
+            margin-bottom: 0
+        &:after
+            display: none
+    .footer__bottom
